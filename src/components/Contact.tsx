@@ -8,6 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import Avatar from '@material-ui/core/Avatar'
 import { green, blue, purple } from '@material-ui/core/colors'
+import {Grid} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -35,12 +36,12 @@ const Contact: React.FC = () => {
 
     return (
         <>
-            <Box p={2} >
-                <Box display='flex' justifyContent='center' p={1} >
+            <Grid container justifyContent='center' >
+                <Grid container justifyContent='center' >
                     <Typography variant='h5' >
                         Contact
                     </Typography>
-                </Box>
+                </Grid>
                 <Box className={classes.root} display='flex' justifyContent='center' p={1}>
                     <Link href='#' color='inherit'>
                         <Avatar className={classes.green}>
@@ -58,7 +59,7 @@ const Contact: React.FC = () => {
                         </Avatar>
                     </Link>
                 </Box>
-            </Box>
+            </Grid>
         </>
     );
 }

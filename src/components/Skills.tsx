@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
+import {Grid} from "@material-ui/core";
 
 const useStyles = makeStyles({
     root: {
@@ -17,12 +18,12 @@ const Skills: React.FC = () => {
 
     return (
         <>
-            <Box p={2}>
-                <Box display='flex' justifyContent='center' p={1} >
+            <Grid container justifyContent='center' >
+                <Grid container justifyContent='center' >
                     <Typography variant='h5' >
                         Skills
                     </Typography>
-                </Box>
+                </Grid>
                 <Box display='flex' justifyContent='center' p={1} >
                     <Card className={classes.root}>
                         <CardContent>
@@ -72,7 +73,7 @@ const Skills: React.FC = () => {
                     </Card>
                 </Box>
 
-            </Box>
+            </Grid>
         </>
     );
 }

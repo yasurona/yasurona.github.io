@@ -1,8 +1,8 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import Box from '@material-ui/core/Box'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
+import { Grid } from '@material-ui/core'
 
 // 画像ファイルをインポート
 import ImageFile from '../static/images/my_avatar.png'
@@ -20,25 +20,25 @@ const MyAvatar: React.FC = () => {
 
     return (
         <>
-            <Box p={2}>
-                <Box display='flex' justifyContent='center' p={1} >
+            <Grid>
+                <Grid container justifyContent='center'>
                     <Avatar
                         alt='yasurona'
                         src={ImageFile}
                         className={classes.large}
                     />
-                </Box>
-                <Box display='flex' justifyContent='center' p={1} >
+                </Grid>
+                <Grid container justifyContent='center'>
                     <Typography variant='h5' >
                         yasurona
                     </Typography>
-                </Box>
-                <Box display='flex' justifyContent='center' p={1} >
+                </Grid>
+                <Grid container justifyContent='center'>
                     <Typography variant='body1'>
                         Graduate student
                     </Typography>
-                </Box>
-            </Box>
+                </Grid>
+            </Grid>
         </>
     );
 }

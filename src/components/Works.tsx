@@ -9,6 +9,7 @@ import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import FolderIcon from '@material-ui/icons/Folder'
+import {Grid} from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -26,12 +27,12 @@ const Works: React.FC = () => {
 
     return (
         <>
-            <Box p={2}>
-                <Box display='flex' justifyContent='center' p={1} >
+            <Grid container justifyContent='center' >
+                <Grid container justifyContent='center' >
                     <Typography variant='h5' >
                         Works
                     </Typography>
-                </Box>
+                </Grid>
                 <Box display='flex' justifyContent='center' p={1} >
                     <List className={classes.root}>
                         <ListItem>
@@ -68,7 +69,7 @@ const Works: React.FC = () => {
                         </ListItem>
                     </List>
                 </Box>
-            </Box>
+            </Grid>
         </>
     );
 }
