@@ -1,3 +1,0 @@
-# yasurona.github.io
-
-ポートフォリオ
