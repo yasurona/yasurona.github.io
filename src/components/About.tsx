@@ -13,7 +13,7 @@ const About: React.FC = () => {
                 </Grid>
                 <Grid container justifyContent='center' >
                     <Typography variant='body1' align='left'>
-                        大阪大学の大学院生です。<br />
+                        大学院生です。<br />
                         データサイエンスとWeb開発に興味があります。
                     </Typography>
                 </Grid>

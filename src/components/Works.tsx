@@ -8,8 +8,9 @@ import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
-import FolderIcon from '@material-ui/icons/Folder'
 import {Grid} from "@material-ui/core";
+
+import LLNowImageFile from '../static/images/llnow-icon.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -36,35 +37,14 @@ const Works: React.FC = () => {
                 <Box display='flex' justifyContent='center' p={1} >
                     <List className={classes.root}>
                         <ListItem>
-                            {/*GitHubリポジトリなどのURLを貼る*/}
-                            <ListItemLink href='#'>
+                            <ListItemLink href='https://twitter.com/LLNow_jp'>
                                 <ListItemAvatar>
-                                    <Avatar>
-                                        <FolderIcon />
-                                    </Avatar>
+                                    <Avatar
+                                        alt='LLNow'
+                                        src={LLNowImageFile}
+                                    />
                                 </ListItemAvatar>
-                                {/*「primary」に作品名、「secondary」に説明文を書く*/}
-                                <ListItemText primary='Work1' secondary='Work1です。' />
-                            </ListItemLink>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemLink href='#'>
-                                <ListItemAvatar>
-                                    <Avatar>
-                                        <FolderIcon />
-                                    </Avatar>
-                                </ListItemAvatar>
-                                <ListItemText primary='Work2' secondary='Work2です。' />
-                            </ListItemLink>
-                        </ListItem>
-                        <ListItem>
-                            <ListItemLink href='#'>
-                                <ListItemAvatar>
-                                    <Avatar>
-                                        <FolderIcon />
-                                    </Avatar>
-                                </ListItemAvatar>
-                                <ListItemText primary='Work3' secondary='Work3です。' />
+                                <ListItemText primary='LL Now' secondary='#loveliveの様子を可視化するTwitter BOT' />
                             </ListItemLink>
                         </ListItem>
                     </List>
