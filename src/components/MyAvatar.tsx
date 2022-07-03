@@ -4,8 +4,7 @@ import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
 import { Grid } from '@material-ui/core'
 
-// 画像ファイルをインポート
-import ImageFile from '../static/images/avatar.png'
+import AvatarImageFile from '../static/images/avatar.png'
 
 const useStyles = makeStyles((theme) => ({
     // 表示サイズを指定
@@ -24,7 +23,7 @@ const MyAvatar: React.FC = () => {
                 <Grid container justifyContent='center'>
                     <Avatar
                         alt='yasurona'
-                        src={ImageFile}
+                        src={AvatarImageFile}
                         className={classes.large}
                     />
                 </Grid>
