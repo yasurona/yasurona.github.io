@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography'
 import { Grid } from '@material-ui/core'
 
 // 画像ファイルをインポート
-import ImageFile from '../static/images/my_avatar.png'
+import ImageFile from '../static/images/avatar.png'
 
 const useStyles = makeStyles((theme) => ({
     // 表示サイズを指定
@@ -35,7 +35,7 @@ const MyAvatar: React.FC = () => {
                 </Grid>
                 <Grid container justifyContent='center'>
                     <Typography variant='body1'>
-                        Graduate student
+                        大阪大学 大学院情報科学研究科
                     </Typography>
                 </Grid>
             </Grid>

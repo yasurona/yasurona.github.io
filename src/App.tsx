@@ -5,7 +5,7 @@ import MyAvatar from './components/MyAvatar'
 import About from './components/About'
 import Skills from './components/Skills'
 import Works from './components/Works'
-import Contact from './components/Contact'
+import Links from './components/Links'
 import ScrollUp from './utils/ScrollUp'
 
 const App: React.FC = () => {
@@ -27,8 +27,8 @@ const App: React.FC = () => {
                 <section id='works'>
                     <Works />
                 </section>
-                <section id='contact'>
-                    <Contact />
+                <section id='links'>
+                    <Links />
                 </section>
             {/*</Container>*/}
             <ScrollUp />

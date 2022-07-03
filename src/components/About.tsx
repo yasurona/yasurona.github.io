@@ -13,9 +13,8 @@ const About: React.FC = () => {
                 </Grid>
                 <Grid container justifyContent='center' >
                     <Typography variant='body1' align='left'>
-                        yasuronaです。<br />
                         大阪大学の大学院生です。<br />
-                        データサイエンスに興味があります。
+                        データサイエンスとWeb開発に興味があります。
                     </Typography>
                 </Grid>
             </Grid>
