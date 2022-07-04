@@ -1,11 +1,12 @@
 // 型定義
 declare module 'react-anchor-link-smooth-scroll' {
-    interface Props {
-        href: string;
-        offset?: function | number;
-        onClick?: (e: Event) => void;
-        [key: string]: any;
-    }
+  interface Props {
+    href: string
+    offset?: function | number
+    onClick?: (e: Event) => void
 
-    export default class AnchorLink extends React.Component<Props> {}
+    [key: string]: any
+  }
+
+  export default class AnchorLink extends React.Component<Props> {}
 }

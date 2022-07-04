@@ -9,31 +9,31 @@ import Links from './components/Links'
 import ScrollUp from './utils/ScrollUp'
 
 const App: React.FC = () => {
-    return (
-        <>
-            {/*<Container fixed>*/}
-                <section>
-                    <Navbar />
-                </section>
-                <section>
-                    <MyAvatar />
-                </section>
-                <section id='about'>
-                    <About />
-                </section>
-                <section id='skills'>
-                    <Skills />
-                </section>
-                <section id='works'>
-                    <Works />
-                </section>
-                <section id='links'>
-                    <Links />
-                </section>
-            {/*</Container>*/}
-            <ScrollUp />
-        </>
-    );
+  return (
+    <>
+      {/*<Container fixed>*/}
+      <section>
+        <Navbar />
+      </section>
+      <section>
+        <MyAvatar />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="works">
+        <Works />
+      </section>
+      <section id="links">
+        <Links />
+      </section>
+      {/*</Container>*/}
+      <ScrollUp />
+    </>
+  )
 }
 
-export default App;
+export default App
