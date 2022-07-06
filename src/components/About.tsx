@@ -5,11 +5,16 @@ import { Grid } from '@material-ui/core'
 const About: React.FC = () => {
   return (
     <>
-      <Grid>
-        <Grid container justifyContent="center">
+      <Grid
+        container
+        alignItems="center"
+        justifyContent="center"
+        direction="column"
+      >
+        <Grid item xs={12}>
           <Typography variant="h5">About</Typography>
         </Grid>
-        <Grid container justifyContent="center">
+        <Grid item xs={12}>
           <Typography variant="body1" align="left">
             大学院生です。
             <br />
