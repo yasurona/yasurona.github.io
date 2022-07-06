@@ -30,7 +30,10 @@ const Works: React.FC = () => {
             <Grid item xs={12}>
               <List>
                 <ListItem>
-                  <ListItemLink href="https://twitter.com/LLNow_jp">
+                  <ListItemLink
+                    target="_blank"
+                    href="https://twitter.com/LLNow_jp"
+                  >
                     <ListItemAvatar>
                       <Avatar alt="LLNow" src={LLNowImageFile} />
                     </ListItemAvatar>

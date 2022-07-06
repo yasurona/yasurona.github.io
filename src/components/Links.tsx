@@ -51,17 +51,25 @@ const Links: React.FC = () => {
           justifyContent="center"
           p={1}
         >
-          {/*<Link href='#' color='inherit'>*/}
+          {/*<Link target="_blank" href='#' color='inherit'>*/}
           {/*    <Avatar className={classes.green}>*/}
           {/*        <MailIcon />*/}
           {/*    </Avatar>*/}
           {/*</Link>*/}
-          <Link href="https://twitter.com/yasurona" color="inherit">
+          <Link
+            target="_blank"
+            href="https://twitter.com/yasurona"
+            color="inherit"
+          >
             <Avatar className={classes.blue}>
               <TwitterIcon />
             </Avatar>
           </Link>
-          <Link href="https://github.com/yasurona" color="inherit">
+          <Link
+            target="_blank"
+            href="https://github.com/yasurona"
+            color="inherit"
+          >
             <Avatar className={classes.purple}>
               <GitHubIcon />
             </Avatar>
