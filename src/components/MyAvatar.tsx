@@ -4,7 +4,7 @@ import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
 import { Grid } from '@material-ui/core'
 
-import AvatarImageFile from '../static/images/avatar.png'
+import AvatarImageFile from '../static/img/avatar.png'
 
 const useStyles = makeStyles((theme) => ({
   large: {
