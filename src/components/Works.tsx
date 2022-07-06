@@ -7,7 +7,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import { Grid } from '@material-ui/core'
 
-import LLNowImageFile from '../static/images/llnow-icon.png'
+import LLNowImageFile from '../static/img/llnow-icon.png'
 
 function ListItemLink(props: ListItemProps<'a', { button?: true }>) {
   return <ListItem button component="a" {...props} />
