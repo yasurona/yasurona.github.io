@@ -1,5 +1,4 @@
 import React from 'react'
-// 追記
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
@@ -14,7 +13,6 @@ const Navbar: React.FC = () => {
         style={{ alignItems: 'center' }}
       >
         <Toolbar>
-          {/*href属性に飛ばしたい位置を指定*/}
           <AnchorLink
             href="#about"
             style={{

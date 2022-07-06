@@ -36,8 +36,13 @@ const Links: React.FC = () => {
 
   return (
     <>
-      <Grid container justifyContent="center">
-        <Grid container justifyContent="center">
+      <Grid
+        container
+        alignItems="center"
+        justifyContent="center"
+        direction="column"
+      >
+        <Grid item xs={12}>
           <Typography variant="h5">Links</Typography>
         </Grid>
         <Box
