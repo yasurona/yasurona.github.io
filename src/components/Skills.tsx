@@ -31,7 +31,7 @@ const Skills: React.FC = () => {
               <Card>
                 <CardContent>
                   <Typography variant="h6">フレームワーク</Typography>
-                  <Typography color="textSecondary">Django</Typography>
+                  <Typography color="textSecondary">Keras / Django</Typography>
                 </CardContent>
               </Card>
             </Grid>
